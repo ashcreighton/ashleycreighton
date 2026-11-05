@@ -1,19 +1,19 @@
 :root {
   --black: black;
-  --rosy-brown-2: rgba(134, 88, 88, .94);
-  --brown-4: rgba(106, 137, 160, .94);
-  --brown: rgba(88, 134, 121, .94);
-  --rosy-brown-3: rgba(161, 134, 144, .94);
-  --brown-3: rgba(118, 119, 150, .94);
+  --rosy-brown-2: #865858f0;
+  --brown-4: #6a89a0f0;
+  --brown: #588679f0;
+  --rosy-brown-3: #a18690f0;
+  --brown-3: #767796f0;
   --white: white;
-  --rosy-brown: rgba(207, 166, 166, .61);
+  --rosy-brown: #cfa6a69c;
   --linen: #f0e7de;
   --light-grey: #d8cdc5;
-  --teal: rgba(66, 110, 116, .4);
+  --teal: #426e7466;
   --floral-white: #fcf6ec;
   --container: #e6dcd6;
+  --brown-2: #86587df0;
   --nav--footer: #13100f;
-  --brown-2: rgba(134, 88, 125, .94);
 }
 
 p {
@@ -31,7 +31,7 @@ p {
 }
 
 .background-video {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex: 0 0 612px;
   justify-content: center;
   align-self: center;
@@ -48,7 +48,7 @@ p {
 }
 
 .section {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
@@ -67,7 +67,7 @@ p {
 }
 
 .body {
-  color: rgba(19, 16, 15, .85);
+  color: #13100fd9;
   height: 100%;
 }
 
@@ -89,7 +89,7 @@ p {
 
 .heading {
   float: right;
-  color: rgba(207, 166, 166, .61);
+  color: #cfa6a69c;
   text-align: right;
   font-family: Unica One, sans-serif;
   font-size: 77px;
@@ -109,7 +109,7 @@ p {
 }
 
 .nav-link {
-  color: rgba(236, 222, 222, .84);
+  color: #ecdeded6;
   font-family: Unica One, sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -120,7 +120,7 @@ p {
 }
 
 .nav-link.w--current {
-  color: rgba(187, 117, 95, .84);
+  color: #bb755fd6;
 }
 
 .container {
@@ -216,7 +216,7 @@ p {
 
 .html-embed-2 {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex: none;
   max-width: 100%;
   height: 200px;
@@ -271,7 +271,7 @@ p {
 
 .section-3 {
   background-color: #13100f;
-  border: 0 rgba(0, 0, 0, 0);
+  border: 0 #0000;
 }
 
 .footer-container {
@@ -283,7 +283,7 @@ p {
 }
 
 .html-embed-4 {
-  color: rgba(216, 205, 197, .81);
+  color: #d8cdc5cf;
   text-align: center;
   font-family: Open Sans, sans-serif;
 }
@@ -422,7 +422,7 @@ html.w-mod-js [data-ix="new-interaction"] {
   }
 
   .div-block-3 {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     flex-direction: column;
     margin-top: 7px;
   }
@@ -525,7 +525,7 @@ html.w-mod-js [data-ix="new-interaction"] {
   }
 
   .button.red {
-    background-color: rgba(134, 88, 88, .94);
+    background-color: #865858f0;
   }
 
   .button.green {
@@ -542,7 +542,7 @@ html.w-mod-js [data-ix="new-interaction"] {
 
   .button.blue {
     background-color: var(--brown-4);
-    display: none;
+    display: inline-block;
   }
 
   .qr-container {
